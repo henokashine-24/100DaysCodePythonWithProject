@@ -14,8 +14,12 @@ if choice1 == "left":
         elif choice3 == "yellow":
             print("You found the reasure. You won\n")
         elif choice3 == "blue":
-            print("you enter the beast house.Game over for you!\n")
+            own = input("what would like to do in the blue house as ther is a lot of things to do? type 'up' to go up and type 'down' to down").lower()
+            if own == "up":
+                print("go to the upstairs and there you will find your suprprise!")
+            else:
+                print("your suprise is waiting for you in down staris!")
         else:
-            print("Please type the choice given.")
+            print("Please type the choice given. red, yellow and blue")
 
             # this is code is modifed a bit. 
