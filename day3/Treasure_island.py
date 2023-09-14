@@ -17,3 +17,5 @@ if choice1 == "left":
             print("you enter the beast house.Game over for you!\n")
         else:
             print("Please type the choice given.")
+
+            # this is code is modifed a bit. 
