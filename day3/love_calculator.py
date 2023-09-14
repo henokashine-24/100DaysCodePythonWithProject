@@ -1,3 +1,5 @@
+# this programe test the compatability of two people
+
 print("Welcome to love calculator ")
 
 name1 = input("what is your name? ")
